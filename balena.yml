@@ -10,7 +10,7 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/balena-labs-projects/balena-sound'
+      url: 'https://github.com/TheThell/balena-sound/edit/master'
   logo:
     type: blob.asset
     data:
