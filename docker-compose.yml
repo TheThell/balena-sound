@@ -42,12 +42,3 @@ services:
     privileged: true
     labels:
       io.balena.features.dbus: 1
-
-  # https://github.com/balenablocks/hostname
-  hostname:
-    build: ./core/hostname
-    restart: no
-    labels:
-      io.balena.features.supervisor-api: 1
-    environment:
-      SET_HOSTNAME: balena
