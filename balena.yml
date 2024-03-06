@@ -19,7 +19,7 @@ assets:
 data:
   applicationEnvironmentVariables:
     - SOUND_VOLUME: 75
-    - AUDIO_OUTPUT: AUTO
+    - AUDIO_OUTPUT: RPI_AUTO
   defaultDeviceType: raspberry-pi
   supportedDeviceTypes:
     - raspberry-pi
@@ -28,4 +28,4 @@ data:
     - raspberrypi4-64
     - fincm3
     - intel-nuc
-version: 3.9.6
+version: 7.7.7
